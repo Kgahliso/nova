@@ -1,0 +1,37 @@
+{
+  "name": "nova-invest-engery-website",
+  "version": "1.0.0",
+  "description": "Nova Invest Engery - Solar & Green Renewable Energy Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "dev": "npx browser-sync start --server --files '**/*.html, assets/**/*.css, assets/**/*.js'",
+    "build": "npm run minify-css && npm run minify-js",
+    "minify-css": "npx clean-css-cli -o assets/css/style.min.css assets/css/style.css",
+    "minify-js": "npx terser assets/js/*.js -o assets/js/bundle.min.js",
+    "validate": "npx html-validate '**/*.html'",
+    "lint": "npx eslint assets/js/**/*.js"
+  },
+  "keywords": [
+    "solar",
+    "renewable-energy",
+    "green-energy",
+    "sustainability"
+  ],
+  "author": "Nova Invest Engery",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^3.0.0",
+    "clean-css-cli": "^5.6.0",
+    "eslint": "^8.50.0",
+    "html-validate": "^8.0.0",
+    "http-server": "^14.1.0",
+    "terser": "^5.20.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

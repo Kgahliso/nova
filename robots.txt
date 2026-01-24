@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow admin/backend areas
+Disallow: /api/
+Disallow: /includes/
+
+# Disallow temporary files
+Disallow: /*.tmp$
+
+# Sitemap location
+Sitemap: https://www.novainvestengery.com/sitemap.xml

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Nova Invest Engery</title>
+  <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+  <!-- Animation On Scroll (AOS) -->
+  <link rel="stylesheet" href="../assets/css/vendor/aos.css">
+  <!-- Bootstrap Icons CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="../assets/css/vendor/slick.css">
+  <!-- FANCYBOX CSS  -->
+  <link rel="stylesheet" href="../assets/css/vendor/fancybox.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header border-bottom-color">
+    <div class="b-container">
+      <nav class="navbar navbar-expand-lg py-3 py-lg-1" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+          <div class="logo-box">
+            <a class="navbar-brand" href="../index.html"><img src="../assets/images/Nova Invest Engery-Logo.png" alt="Main Logo"
+                class="header-logo"></a>
+          </div>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start bg-heading-color-3" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header" id="offcanvasNavbarLabel">
+              <div class="logo-box">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/images/Nova Invest Engery-Logo.png" alt="Drawer Logo"
+                    class="header-logo"></a>
+              </div>
+              <button type="button" class="btn-close bg-accent-color-2" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div
+              class="offcanvas-body d-flex flex-row justify-content-start justify-content-lg-end align-items-start align-items-lg-center gap-5">
+              <ul class="navbar-nav gap-lg-2 gap-xl-4">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../pages/about-us.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="d-flex align-items-center">
+                    <a class="nav-link" href="../projects/">
+                      Projects
+                    </a>
+                    <a class="nav-link dropdown-toggle icon-submenu" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../projects/details.html">Project Details</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="d-flex align-items-center">
+                    <a class="nav-link" href="#">
+                      Pages
+                    </a>
+                    <a class="nav-link dropdown-toggle icon-submenu" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../services/">Services</a></li>
+                      <li><a class="dropdown-item" href="../services/details.html">Service Details</a></li>
+                      <li><a class="dropdown-item" href="../pricing/">Pricing Plan</a></li>
+                      <li><a class="dropdown-item" href="../pages/our-expertise.html">Our Expertise</a></li>
+                      <li><a class="dropdown-item" href="../pages/careers.html">Careers</a></li>
+                      <li><a class="dropdown-item" href="../pages/testimonials.html">Testimonials</a></li>
+                      <li><a class="dropdown-item" href="../pages/faq.html">FAQ</a></li>
+                      <li><a class="dropdown-item" href="../404.html">404</a></li>
+                      <li><a class="dropdown-item" href="../pages/contact-us.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="d-flex align-items-center">
+                    <a class="nav-link active" href="../blog/">
+                      Our Blog
+                    </a>
+                    <a class="nav-link dropdown-toggle icon-submenu" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../blog/post.html">Single Post</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <div class="mt-0 d-none d-lg-block">
+                <a href="../pages/contact-us.html" class="btn-cta-primary align-self-start">
+                  <span class="btn-text">Get in Touch</span>
+                  <i class="bi bi-arrow-right-circle-fill btn-icon-primary"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- #header end -->
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Banner -->
+    <section class="section hero-banner position-relative"
+      style="background-image: url('images/1920x1280.jpg'); background-position: center top;">
+      <div class="bg-overlay-5"></div>
+      <div class="b-container h-100 position-relative z-2 overflow-hidden">
+        <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center text-white gap-4">
+          <h1 class="text-white mb-0 from-left" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+            Our Blog
+          </h1>
+          <div class="spacer-80"></div>
+          <div class="d-flex align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="300"
+            data-aos-duration="1000">
+            <div class="spacer-bottom-right-30 "></div>
+            <nav aria-label="breadcrumb bg-secondary-color">
+              <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+              </ol>
+            </nav>
+            <div class="spacer-bottom-left-30 "></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #banner -->
+
+    <!-- Blog -->
+    <section class="section our-blog bg-color">
+      <div class="b-container">
+        <div class="row mb-5">
+          <div class="col-12 d-flex flex-column align-items-center gap-4">
+            <h6 class="mb-0 text-primary-color text-center">Latest Blog Post
+            </h6>
+            <h2 class="mb-0 text-primary-color text-center title-max-w">Stay Updated on Renewable Energy Trends</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  alt="worker-cleaning-automobile-air-conditioner-vent-gr" class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Solar
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">Off-Grid vs. On-Grid Solar Systems Which is Better</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Choosing between off-grid and on-grid solar systems can be challenging
+                  without understanding their unique benefits. Off-grid systems provide complete energy independence,
+                  perfect for remote locations, while on-grid systems offer reliability and cost savings through grid
+                  connectivity. This guide explores both options in detail, helping homeowners and businesses make
+                  informed decisions for a sustainable future.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Energy
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">Government Incentives for Solar Power Adoption Today</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Transitioning to solar energy has never been more affordable, thanks to a
+                  range of government incentives and rebate programs. From tax credits to net metering policies, these
+                  initiatives are designed to make renewable energy accessible for households and businesses alike.
+                  Learn how you can take advantage of these opportunities to lower installation costs and maximize
+                  long-term savings.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  alt="worker-cleaning-automobile-air-conditioner-vent-gr" class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Renewable
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">The Role of AI in Advancing Renewable Energy Tech</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Artificial intelligence is reshaping the renewable energy industry,
+                  optimizing solar panel performance, predicting energy demands, and enhancing grid efficiency. By
+                  integrating AI-driven analytics and smart systems, businesses and homeowners can unlock greater
+                  reliability and sustainability. Discover how these cutting-edge innovations are paving the way for a
+                  cleaner, smarter energy future.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  alt="worker-cleaning-automobile-air-conditioner-vent-gr" class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Solar
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">Comparing Solar Batteries to Find the Best Option</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Choosing the right solar battery is essential for maximizing energy storage and long-term savings. From lithium-ion to lead-acid solutions, each option offers unique benefits in performance, cost, and durability. Explore how comparing key features can help homeowners and businesses make smarter investments in clean energy.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Energy
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">Solar Panel Maintenance Best Practices for Longevity</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Switching to solar power significantly reduces reliance on fossil fuels and lowers greenhouse gas emissions. By generating clean electricity from the sun, households and businesses can shrink their carbon footprint and contribute to a healthier planet. Learn how solar adoption supports global sustainability goals.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  alt="worker-cleaning-automobile-air-conditioner-vent-gr" class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Solar
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">The Role of AI in Advancing Renewable Energy Tech</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Proper maintenance is key to extending the lifespan and efficiency of solar panels. Regular cleaning, inspections, and performance monitoring ensure consistent energy output and prevent costly repairs. Discover proven best practices that help keep your solar system running at its peak for decades.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  alt="worker-cleaning-automobile-air-conditioner-vent-gr" class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Renewable
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">The Environmental Impact of Using Solar Energy</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Solar power is one of the cleanest energy sources available, offering a sustainable alternative to fossil fuels. By reducing air pollution, conserving natural resources, and lowering greenhouse gas emissions, solar energy creates long-term benefits for the environment. Explore the positive impact solar adoption brings to communities worldwide.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  alt="worker-cleaning-automobile-air-conditioner-vent-gr" class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Energy
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">How Businesses Benefit from Switching to Solar Power</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Businesses adopting solar energy can enjoy significant cost savings, energy independence, and a stronger commitment to sustainability. From lowering operational expenses to improving brand reputation, solar offers both financial and environmental advantages. See why more companies are making the switch to renewable power.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Renewable
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">Five Ways Solar Energy Saves You More Money</h4>
+                </a>
+                <p class="m-0 blog-excerpt">Going solar is not just about clean energy—it’s also about smart financial savings. From reducing electricity bills to earning tax incentives, solar systems provide multiple ways to cut costs. Learn the top five ways solar helps homeowners and businesses maximize their return on investment.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card blog position-relative">
+              <a href="../blog/post.html">
+                <img src="../assets/images/1920x1280.jpg"
+                  alt="worker-cleaning-automobile-air-conditioner-vent-gr" class="w-100 rounded-top-4">
+              </a>
+              <div class="blog-content">
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1">
+                  <li class="list-unstyled me-3 text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-folder2-open me-2"></i>
+                    Solar
+                  </li>
+                </ul>
+                <a href="../blog/post.html">
+                  <h4 class="my-3">The Future of Solar Energy and Its Global Impact</h4>
+                </a>
+                <p class="m-0 blog-excerpt">As technology advances, solar energy continues to reshape the global energy landscape. Innovations in storage, efficiency, and scalability are making solar more accessible than ever before. Discover how the future of solar promises greater sustainability, energy security, and worldwide economic growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #blog -->
+
+  </main>
+  <!-- End Main Content -->
+
+  <!-- Footer -->
+  <footer class="footer overflow-hidden">
+    <div class="b-container d-flex flex-column gap-4">
+      <div class="row d-flex align-items-center gap-4 gap-xl-0">
+        <div class="col-12 col-xl-6">
+          <h3 class="text-secondary-color text-center text-xl-start mb-0">Stay updated with the latest solar innovations and news.</h3>
+        </div>
+        <div class="col-12 col-xl-6">
+          <div class="d-flex flex-column">
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div id="liveToast" class="toast success_msg_subscribe text-bg-light" role="alert" aria-live="assertive"
+                aria-atomic="true">
+                <div class="d-flex">
+                  <div class="toast-body">
+                    <i class="bi bi-check-circle-fill"></i> Your Subscribe Send Successfully.
+                  </div>
+                  <button type="button" class="btn me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
+                    <i class="bi bi-x-lg"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <form class="form subscribe needs-validation d-flex flex-column flex-md-row bg-accent-color">
+              <input type="text" name="action" value="subscribe" hidden>
+              <input type="email" name="email" id="email" class="form-control form-control-lg border-0"
+                placeholder="Your best email" required>
+              <div class="invalid-feedback text-white">
+                Please provide a valid email format (e.g.,
+                user@example.com).
+              </div>
+              <button type="submit"
+                class="btn btn-cta-form w-100 d-inline-flex d-flex align-items-center justify-content-center submit_subscribe no-bottom-left-radius mt-3 mt-md-0">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr class="py-2 text-heading-color-2 opacity-100">
+      <div class="row g-0 g-md-5 mt-0 mx-auto ptpb-120 position-relative z-1">
+        <div
+          class="col-12 col-md-6 col-xl-3 mt-0 ps-0 mb-5 mb-xl-0 d-flex flex-column justify-content-center justify-content-xl-start gap-4">
+          <div class="footer-logo-box d-flex justify-content-center justify-content-md-start">
+            <img src="../assets/images/Nova Invest Engery-Logo.png" alt="Footer Logo"
+              class="w-100 h-100 object-fit-contain d-block logo-footer">
+          </div>
+          <p class="text-color-1 text-center text-md-start">Solar and green renewable energy delivers clean and sustainable power solutions while reducing carbon impact and promoting innovation.</p>
+          <div class="d-flex gap-2 justify-content-center justify-content-md-start">
+            <a href="https://www.facebook.com"><i class="bi bi-facebook icon-social"></i></a>
+            <a href="https://www.twitter.com"><i class="bi bi-twitter icon-social"></i></a>
+            <a href="https://www.youtube.com"><i class="bi bi-youtube icon-social"></i></a>
+            <a href="https://www.dribbble.com"> <i class="bi bi-dribbble icon-social"></i></a>
+            <a href="https://www.linkedin.com"><i class="bi bi-linkedin icon-social"></i></a>
+            <a href="https://www.instagram.com"><i class="bi bi-instagram icon-social"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-2 mt-0 pe-0 mb-5 mb-xl-0">
+          <h4 class="text-center text-md-start text-secondary-color mb-4">Quick Links</h4>
+          <ul class="p-0 m-0 d-flex flex-column align-items-center align-items-md-start">
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../index.html">
+                Home</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../pages/about-us.html">
+                About Us</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/">
+                Services</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../projects/">
+                Projects</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../blog/">
+                Blog</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../pages/contact-us.html">
+                Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 mt-0 ps-0 ps-xl-4 mb-5 mb-md-0">
+          <h4 class="text-center text-md-start text-secondary-color mb-4">Helpful Resources</h4>
+          <ul class="p-0 m-0 d-flex flex-column align-items-center align-items-md-start">
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../projects/">
+                Case Studies</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/details.html">
+                Energy Savings Calculator</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/details.html">
+                E-books & Guides</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/details.html">
+                Video Tutorials</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../projects/details.html">
+                Sustainability Reports</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/details.html">
+                Industry Certifications</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 mt-0 pe-0 d-flex flex-column align-items-center align-items-md-start">
+          <h4 class="text-center text-md-start text-secondary-color mb-4">Contact Information</h4>
+          <div class="d-flex flex-column flex-md-row align-items-center mb-4 gap-3">
+            <a href="mailto:info@novainvestengery.com" class="icon-contact"><i class="bi bi-envelope fs-2"></i></a>
+            <div class="d-flex flex-column text-center text-md-start">
+              <h6 class="text-secondary-color mb-1">Email Address</h6>
+              <h4 class="mb-0 text-color-1">info@novainvestengery.com</h4>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+            <a href="https://maps.app.goo.gl/3x8qkaNgmKujFj4aA" target="_blank" class="icon-contact"><i class="bi bi-geo-alt fs-2"></i></i></a>
+            <div class="d-flex flex-column text-center text-md-start">
+              <h6 class="text-secondary-color mb-1">Our Location</h6>
+              <h4 class="mb-0 text-color-1">123 Green Energy Street, Solar City, USA</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row position-relative z-0">
+      <div class="border-top-color position-relative z-1">
+        <div class="b-container py-4">
+          <div class="d-flex flex-column flex-md-row flex-wrap justify-content-center justify-content-md-between align-items-center">
+            <p class="text-color-1 mb-2 mb-md-0 footer-rights">© 2025 Nomaden Studio. All Rights Reserved.</p>
+            <ul class="m-0 p-0 d-flex gap-3 footer-terms">
+              <li class="list-unstyled"><a href="#" class="text-color-3 pe-3">Privacy Policy</a></li>
+              <li class="list-unstyled"><a href="#" class="text-color-3">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <!-- Scripts -->
+  <!-- jQuery -->
+  <script src="../assets/js/vendor/jquery.min.js"></script>
+  <!-- Animation On Scroll (AOS) -->
+  <script src="../assets/js/vendor/aos.js"></script>
+  <!-- Slick JS -->
+  <script src="../assets/js/vendor/slick.min.js"></script>
+  <!-- FANCY BOX -->
+  <script src="../assets/js/vendor/fancybox.umd.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="../assets/js/vendor/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="../assets/js/script-counter.js"></script>
+  <script src="../assets/js/submit-form.js"></script>
+  <script src="../assets/js/script.js"></script>
+  <!-- End Scripts -->
+</body>
+
+</html>

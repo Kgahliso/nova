@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Post - Nova Invest Engery</title>
+  <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+  <!-- Animation On Scroll (AOS) -->
+  <link rel="stylesheet" href="../assets/css/vendor/aos.css">
+  <!-- Bootstrap Icons CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="../assets/css/vendor/slick.css">
+  <!-- FANCYBOX CSS  -->
+  <link rel="stylesheet" href="../assets/css/vendor/fancybox.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header border-bottom-color">
+    <div class="b-container">
+      <nav class="navbar navbar-expand-lg py-3 py-lg-1" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+          <div class="logo-box">
+            <a class="navbar-brand" href="../index.html"><img src="../assets/images/Nova Invest Engery-Logo.png" alt="Main Logo"
+                class="header-logo"></a>
+          </div>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start bg-heading-color-3" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header" id="offcanvasNavbarLabel">
+              <div class="logo-box">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/images/Nova Invest Engery-Logo.png" alt="Drawer Logo"
+                    class="header-logo"></a>
+              </div>
+              <button type="button" class="btn-close bg-accent-color-2" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div
+              class="offcanvas-body d-flex flex-row justify-content-start justify-content-lg-end align-items-start align-items-lg-center gap-5">
+              <ul class="navbar-nav gap-lg-2 gap-xl-4">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../pages/about-us.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="d-flex align-items-center">
+                    <a class="nav-link" href="../projects/">
+                      Projects
+                    </a>
+                    <a class="nav-link dropdown-toggle icon-submenu" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../projects/details.html">Project Details</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="d-flex align-items-center">
+                    <a class="nav-link" href="#">
+                      Pages
+                    </a>
+                    <a class="nav-link dropdown-toggle icon-submenu" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../services/">Services</a></li>
+                      <li><a class="dropdown-item" href="../services/details.html">Service Details</a></li>
+                      <li><a class="dropdown-item" href="../pricing/">Pricing Plan</a></li>
+                      <li><a class="dropdown-item" href="../pages/our-expertise.html">Our Expertise</a></li>
+                      <li><a class="dropdown-item" href="../pages/careers.html">Careers</a></li>
+                      <li><a class="dropdown-item" href="../pages/testimonials.html">Testimonials</a></li>
+                      <li><a class="dropdown-item" href="../pages/faq.html">FAQ</a></li>
+                      <li><a class="dropdown-item" href="../404.html">404</a></li>
+                      <li><a class="dropdown-item" href="../pages/contact-us.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <div class="d-flex align-items-center">
+                    <a class="nav-link active" href="../blog/">
+                      Our Blog
+                    </a>
+                    <a class="nav-link dropdown-toggle icon-submenu" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item active" href="../blog/post.html">Single Post</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <div class="mt-0 d-none d-lg-block">
+                <a href="../pages/contact-us.html" class="btn-cta-primary align-self-start">
+                  <span class="btn-text">Get in Touch</span>
+                  <i class="bi bi-arrow-right-circle-fill btn-icon-primary"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- #header end -->
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Banner -->
+    <section class="section hero-banner position-relative"
+      style="background-image: url('images/1920x1280.jpg'); background-position: center top;">
+      <div class="bg-overlay-5"></div>
+      <div class="b-container h-100 position-relative z-2 overflow-hidden">
+        <div class="d-flex flex-column justify-content-center align-items-center mx-auto text-center text-white gap-4">
+          <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-start w-100 gap-3 gap-md-5">
+            <h1 class="text-white mb-0 from-left heading-2 text-center text-md-start border-right-color" data-aos="fade-right" data-aos-delay="300"
+              data-aos-duration="1000" style="max-width: 876px;">
+              Off-Grid vs. On-Grid Solar Systems Which is Better
+            </h1>
+            <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-start gap-2 gap-xl-4 ps-xl-4 ms-xl-5">
+              <a href="#" class="text-secondary-color">By Pays</a>
+              <a href="#" class="text-secondary-color">February 25, 2025</a>
+              <a href="#" class="text-secondary-color">0 Comment</a>
+            </div>
+          </div>
+          <div class="spacer-80"></div>
+          <div class="d-flex align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="300"
+            data-aos-duration="1000">
+            <div class="spacer-bottom-right-30 "></div>
+            <nav aria-label="breadcrumb bg-secondary-color">
+              <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Single Post</li>
+              </ol>
+            </nav>
+            <div class="spacer-bottom-left-30 "></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #banner -->
+
+    <!-- Single Post -->
+    <section class="section">
+      <div class="b-container d-flex flex-column gap-5">
+        <div class="row d-flex gap-5 gap-xl-0">
+          <div class="col-12 col-xl-4 pe-xl-4 d-flex flex-column flex-md-row flex-xl-column gap-5 order-2 order-xl-1">
+            <div class="d-flex flex-column bg-heading-color-3 rounded-6 p-4 card-project gap-4 overflow-hidden">
+              <h4 class="mb-0 text-secondary-color">Latest Post</h4>
+              <div class="bg-heading-color-2 rounded-6 p-4 d-flex flex-column justify-content-center gap-3">
+                <a href="../blog/post.html" class="text-secondary-color">
+                  <h5 class="mt-1 mb-0">Off-Grid vs. On-Grid Solar Systems Which is Better</h5>
+                </a>
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1 gap-3">
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 text-small me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 text-small me-2"></i>
+                    Solar
+                  </li>
+                </ul>
+              </div>
+              <div class="bg-heading-color-2 rounded-6 p-4 d-flex flex-column justify-content-center gap-3">
+                <a href="../blog/post.html" class="text-secondary-color">
+                  <h5 class="mt-1 mb-0">Government Incentives for Solar Power Adoption Today</h5>
+                </a>
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1 gap-3">
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 text-small me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 text-small me-2"></i>
+                    Energy
+                  </li>
+                </ul>
+              </div>
+              <div class="bg-heading-color-2 rounded-6 p-4 d-flex flex-column justify-content-center gap-3">
+                <a href="../blog/post.html" class="text-secondary-color">
+                  <h5 class="mt-1 mb-0">The Role of AI in Advancing Renewable Energy Tech</h5>
+                </a>
+                <ul class="d-flex align-items-center m-0 p-0 text-heading-color-1 gap-3">
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 text-small me-2"></i>
+                    February 23, 2025
+                  </li>
+                  <li class="list-unstyled text-small d-flex align-items-center">
+                    <i class="bi bi-calendar4 text-small me-2"></i>
+                    Renewable
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-flex flex-column flex-xl-column flex-lg-row gap-4 card-project">
+              <div class="px-4 pb-4 rounded-6 flex-fill position-relative img-background overflow-hidden"
+                style="background-image: url('images/900x900.jpg'); padding-top: 230px">
+                <div class="bg-overlay-3 z-1 rounded-6"></div>
+                <div class="d-flex flex-column gap-4 z-1 position-relative">
+                  <h3 class="mb-0 me-0 me-xl-5 text-secondary-color">Ready to Switch to Solar?</h3>
+                  <p class="mb-0 text-color-1">Take the first step towards a greener tomorrow. Contact us today for a
+                    free
+                    consultation and discover how Nova Invest Engery can transform your energy needs!</p>
+                  <a href="../pages/contact-us.html" class="btn-cta-primary align-self-start">
+                    <span class="btn-text">Get a Free Quote</span>
+                    <i class="bi bi-arrow-right-circle-fill btn-icon-primary"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-8 ps-xl-4 order-1 order-xl-2">
+            <div class="d-flex flex-column gap-4">
+              <img src="../assets/images/1920x1280.jpg"
+                alt="aerial-view-of-large-sustainable-electrical-power" height="435px"
+                class="w-100 object-cover rounded-6">
+              <h3 class="mb-0 text-heading-color-2">Introduction: The Growing Shift to Solar Energy</h3>
+              <p class="mb-0">
+                In recent years, solar energy has gained tremendous popularity as a sustainable and cost-effective
+                solution. But when choosing a solar system, one of the biggest decisions is whether to go Off-Grid or
+                On-Grid. So, which is the better option? Let’s break it down!
+              </p>
+              <p class="mb-0">
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed
+                dapibus ipsum, euismod sodales lacus. Phasellus a elit purus. Cras at pellentesque odio. Donec feugiat
+                lectus non nisl viverra, ut sagittis massa luctus. Vivamus id odio id neque tincidunt varius et quis
+                odio. Etiam fermentum tortor nec molestie sagittis.
+              </p>
+              <h3 class="mb-0 text-heading-color-2">Which One is Right for You?</h3>
+              <p class="mb-0">
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed
+                dapibus ipsum, euismod sodales lacus. Phasellus a elit purus. Cras at pellentesque odio. Donec feugiat
+                lectus non nisl viverra, ut sagittis massa luctus. Vivamus id odio id neque tincidunt varius et quis
+                odio. Etiam fermentum tortor nec molestie sagittis.
+              </p>
+              <div class="col-12 col-md-6 col-xl-5 d-flex flex-column flex-md-row w-100 gap-3 gap-md-5">
+                <div class="d-flex flex-column text-primary-color text-semi-bold">
+                  <h4 class="mb-3">Choose On-Grid if :</h4>
+                  <ul class="p-0 m-0">
+                    <li class="list-unstyled mb-3 d-flex align-items-center">
+                      <i class="bi bi-check-circle-fill fs-5 text-heading-color-1 me-4 text-small"></i>
+                      Your area has reliable electricity grid access
+                    </li>
+                    <li class="list-unstyled mb-3 d-flex align-items-center">
+                      <i class="bi bi-check-circle-fill fs-5 text-heading-color-1 me-4 text-small"></i>
+                      You want to sell excess power via net metering
+                    </li>
+                    <li class="list-unstyled mb-3 d-flex align-items-center">
+                      <i class="bi bi-check-circle-fill fs-5 text-heading-color-1 me-4 text-small"></i>
+                      You want a low-cost, easy-to-maintain solar system
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex flex-column text-primary-color text-semi-bold">
+                  <h4 class="mb-3">Choose Off-Grid if :</h4>
+                  <ul class="p-0 m-0">
+                    <li class="list-unstyled mb-3 d-flex align-items-center">
+                      <i class="bi bi-check-circle-fill fs-5 text-heading-color-1 me-4 text-small"></i>
+                      You live in a remote area with no power grid
+                    </li>
+                    <li class="list-unstyled mb-3 d-flex align-items-center">
+                      <i class="bi bi-check-circle-fill fs-5 text-heading-color-1 me-4 text-small"></i>
+                      You want energy independence and no electricity bills
+                    </li>
+                    <li class="list-unstyled mb-3 d-flex align-items-center">
+                      <i class="bi bi-check-circle-fill fs-5 text-heading-color-1 me-4 text-small"></i>
+                      You can afford higher initial costs for battery storage
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="mb-0 text-heading-color-2">Final Thoughts</h3>
+              <p class="mb-0">
+                Both On-Grid and Off-Grid solar systems have their advantages, and the best choice depends on your
+                energy needs, location, and budget. If you prioritize cost-efficiency, On-Grid is the way to go.
+                However, if you seek complete independence, Off-Grid is the better option.
+              </p>
+              <hr class="border-top-color">
+              <div class="d-flex flex-column flex-md-row justify-content-between gap-4">
+                <div class="d-flex flex-row flex-wrap gap-3 text-semi-bold tags-post">
+                  <h5 class="text-primary-color mb-0">Tags :</h5>
+                  <p class="m-0 border-primary-color text-heading-color-3 px-2 rounded-4 text-small tag-label">Climate</p>
+                  <p class="m-0 border-primary-color text-heading-color-3 px-2 rounded-4 text-small tag-label">Eco</p>
+                  <p class="m-0 border-primary-color text-heading-color-3 px-2 rounded-4 text-small tag-label">Power</p>
+                  <p class="m-0 border-primary-color text-heading-color-3 px-2 rounded-4 text-small tag-label">Savings</p>
+                  <p class="m-0 border-primary-color text-heading-color-3 px-2 rounded-4 text-small tag-label">Solar</p>
+                  <p class="m-0 border-primary-color text-heading-color-3 px-2 rounded-4 text-small tag-label">Green</p>
+                  <p class="m-0 border-primary-color text-heading-color-3 px-2 rounded-4 text-small tag-label">Sustainability</p>
+                </div>
+                <div class="d-flex align-items-center gap-4">
+                  <h5 class="text-semi-bold text-primary-color mb-0">Share this post on :</h5>
+                  <div class="d-flex gap-2 justify-content-center justify-content-md-start share-post">
+                    <a href="https://www.facebook.com"><i class="bi bi-facebook icon-social"></i></a>
+                    <a href="https://www.twitter.com"><i class="bi bi-twitter icon-social"></i></a>
+                    <a href="https://www.youtube.com"><i class="bi bi-youtube icon-social"></i></a>
+                  </div>
+                </div>
+              </div>
+              <hr class="border-top-color">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #single post -->
+
+  </main>
+  <!-- End Main Content -->
+
+  <!-- Footer -->
+  <footer class="footer overflow-hidden">
+    <div class="b-container d-flex flex-column gap-4">
+      <div class="row d-flex align-items-center gap-4 gap-xl-0">
+        <div class="col-12 col-xl-6">
+          <h3 class="text-secondary-color text-center text-xl-start mb-0">Stay updated with the latest solar innovations and news.</h3>
+        </div>
+        <div class="col-12 col-xl-6">
+          <div class="d-flex flex-column">
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div id="liveToast" class="toast success_msg_subscribe text-bg-light" role="alert" aria-live="assertive"
+                aria-atomic="true">
+                <div class="d-flex">
+                  <div class="toast-body">
+                    <i class="bi bi-check-circle-fill"></i> Your Subscribe Send Successfully.
+                  </div>
+                  <button type="button" class="btn me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
+                    <i class="bi bi-x-lg"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <form class="form subscribe needs-validation d-flex flex-column flex-md-row bg-accent-color">
+              <input type="text" name="action" value="subscribe" hidden>
+              <input type="email" name="email" id="email" class="form-control form-control-lg border-0"
+                placeholder="Your best email" required>
+              <div class="invalid-feedback text-white">
+                Please provide a valid email format (e.g.,
+                user@example.com).
+              </div>
+              <button type="submit"
+                class="btn btn-cta-form w-100 d-inline-flex d-flex align-items-center justify-content-center submit_subscribe no-bottom-left-radius mt-3 mt-md-0">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr class="py-2 text-heading-color-2 opacity-100">
+      <div class="row g-0 g-md-5 mt-0 mx-auto ptpb-120 position-relative z-1">
+        <div
+          class="col-12 col-md-6 col-xl-3 mt-0 ps-0 mb-5 mb-xl-0 d-flex flex-column justify-content-center justify-content-xl-start gap-4">
+          <div class="footer-logo-box d-flex justify-content-center justify-content-md-start">
+            <img src="../assets/images/Nova Invest Engery-Logo.png" alt="Footer Logo"
+              class="w-100 h-100 object-fit-contain d-block logo-footer">
+          </div>
+          <p class="text-color-1 text-center text-md-start">Solar and green renewable energy delivers clean and sustainable power solutions while reducing carbon impact and promoting innovation.</p>
+          <div class="d-flex gap-2 justify-content-center justify-content-md-start">
+            <a href="https://www.facebook.com"><i class="bi bi-facebook icon-social"></i></a>
+            <a href="https://www.twitter.com"><i class="bi bi-twitter icon-social"></i></a>
+            <a href="https://www.youtube.com"><i class="bi bi-youtube icon-social"></i></a>
+            <a href="https://www.dribbble.com"> <i class="bi bi-dribbble icon-social"></i></a>
+            <a href="https://www.linkedin.com"><i class="bi bi-linkedin icon-social"></i></a>
+            <a href="https://www.instagram.com"><i class="bi bi-instagram icon-social"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-2 mt-0 pe-0 mb-5 mb-xl-0">
+          <h4 class="text-center text-md-start text-secondary-color mb-4">Quick Links</h4>
+          <ul class="p-0 m-0 d-flex flex-column align-items-center align-items-md-start">
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../index.html">
+                Home</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../pages/about-us.html">
+                About Us</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/">
+                Services</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../projects/">
+                Projects</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../blog/">
+                Blog</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../pages/contact-us.html">
+                Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 mt-0 ps-0 ps-xl-4 mb-5 mb-md-0">
+          <h4 class="text-center text-md-start text-secondary-color mb-4">Helpful Resources</h4>
+          <ul class="p-0 m-0 d-flex flex-column align-items-center align-items-md-start">
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../projects/">
+                Case Studies</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/details.html">
+                Energy Savings Calculator</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/details.html">
+                E-books & Guides</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/details.html">
+                Video Tutorials</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../projects/details.html">
+                Sustainability Reports</a>
+            </li>
+            <li class="d-flex align-items-center list-unstyled mb-2">
+              <a href="../services/details.html">
+                Industry Certifications</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 mt-0 pe-0 d-flex flex-column align-items-center align-items-md-start">
+          <h4 class="text-center text-md-start text-secondary-color mb-4">Contact Information</h4>
+          <div class="d-flex flex-column flex-md-row align-items-center mb-4 gap-3">
+            <a href="mailto:info@novainvestengery.com" class="icon-contact"><i class="bi bi-envelope fs-2"></i></a>
+            <div class="d-flex flex-column text-center text-md-start">
+              <h6 class="text-secondary-color mb-1">Email Address</h6>
+              <h4 class="mb-0 text-color-1">info@novainvestengery.com</h4>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+            <a href="https://maps.app.goo.gl/3x8qkaNgmKujFj4aA" target="_blank" class="icon-contact"><i class="bi bi-geo-alt fs-2"></i></i></a>
+            <div class="d-flex flex-column text-center text-md-start">
+              <h6 class="text-secondary-color mb-1">Our Location</h6>
+              <h4 class="mb-0 text-color-1">123 Green Energy Street, Solar City, USA</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row position-relative z-0">
+      <div class="border-top-color position-relative z-1">
+        <div class="b-container py-4">
+          <div class="d-flex flex-column flex-md-row flex-wrap justify-content-center justify-content-md-between align-items-center">
+            <p class="text-color-1 mb-2 mb-md-0 footer-rights">© 2025 Nomaden Studio. All Rights Reserved.</p>
+            <ul class="m-0 p-0 d-flex gap-3 footer-terms">
+              <li class="list-unstyled"><a href="#" class="text-color-3 pe-3">Privacy Policy</a></li>
+              <li class="list-unstyled"><a href="#" class="text-color-3">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <!-- Scripts -->
+  <!-- jQuery -->
+  <script src="../assets/js/vendor/jquery.min.js"></script>
+  <!-- Animation On Scroll (AOS) -->
+  <script src="../assets/js/vendor/aos.js"></script>
+  <!-- Slick JS -->
+  <script src="../assets/js/vendor/slick.min.js"></script>
+  <!-- FANCY BOX -->
+  <script src="../assets/js/vendor/fancybox.umd.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="../assets/js/vendor/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="../assets/js/script-counter.js"></script>
+  <script src="../assets/js/submit-form.js"></script>
+  <script src="../assets/js/script.js"></script>
+  <!-- End Scripts -->
+</body>
+
+</html>
