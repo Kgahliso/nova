@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx http-server -p 8080 -o",
     "dev": "npx browser-sync start --server --files '**/*.html, assets/**/*.css, assets/**/*.js'",
-    "build": "npm run minify-css && npm run minify-js",
+    "build": "echo 'Static site - no build required'",
     "minify-css": "npx clean-css-cli -o assets/css/style.min.css assets/css/style.css",
     "minify-js": "npx terser assets/js/*.js -o assets/js/bundle.min.js",
     "validate": "npx html-validate '**/*.html'",
