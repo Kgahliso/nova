@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nova Energy - Live Reload Server</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 { color: #333; margin-bottom: 20px; }
+        .status { 
+            padding: 15px; 
+            border-radius: 8px; 
+            margin: 20px 0;
+            font-weight: 600;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .info { background: #d1ecf1; color: #0c5460; }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: all 0.3s;
+        }
+        .btn:hover { background: #764ba2; transform: translateY(-2px); }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Nova Energy - Development Server</h1>
+        <div class="status success">
+            ✓ Server is running on port 8080
+        </div>
+        <div class="status info">
+            ℹ️ Auto-reload is active - changes will refresh automatically
+        </div>
+        <p><strong>Your website is available at:</strong></p>
+        <a href="/index.html" class="btn">Open Main Site</a>
+        <p style="margin-top: 30px; color: #666; font-size: 14px;">
+            Files being watched: <code>*.html</code>, <code>*.css</code>, <code>*.js</code>
+        </p>
+    </div>
+    
+    <script>
+        // Auto-reload functionality
+        let lastModified = {};
+        
+        function checkForChanges() {
+            fetch('/index.html', { method: 'HEAD' })
+                .then(response => {
+                    const modified = response.headers.get('last-modified');
+                    if (lastModified.index && lastModified.index !== modified) {
+                        console.log('Changes detected, reloading...');
+                        location.reload();
+                    }
+                    lastModified.index = modified;
+                })
+                .catch(err => console.log('Check failed:', err));
+        }
+        
+        // Check every 1 second
+        setInterval(checkForChanges, 1000);
+        console.log('Auto-reload watcher active');
+    </script>
+</body>
+</html>

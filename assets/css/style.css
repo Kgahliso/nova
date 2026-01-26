@@ -229,9 +229,11 @@ body {
 }
 
 .header {
-  position: relative;
-  margin-bottom: -100px;
-  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   padding: 0px 8px;
 }
 
@@ -240,9 +242,8 @@ body {
 }
 
 .home-hero {
-  height: 100vh;
-  max-height: 890px;
-  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
 }
 
 .home-hero h1 {
@@ -262,7 +263,6 @@ body {
 
 .hero-desc {
   max-width: 388px;
-  margin-top: -80px;
 }
 
 .hero-content {
@@ -307,10 +307,12 @@ body {
 
 /* Carousel Images */
 .kb-carousel>.carousel-inner>.carousel-item>img,
-.kb-carousel>.carousel-inner>.carousel-item>a>img {
+.kb-carousel>.carousel-inner>.carousel-item>a>img,
+.kb-carousel>.carousel-inner>.carousel-item>video {
   opacity: 0.8;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   object-fit: cover;
   animation: kenburns 20000ms linear 0s infinite alternate;
 }
@@ -1057,7 +1059,7 @@ body {
 /* ---------------------------- */
 
 .home-hero {
-  padding: 170px 8px 0px 8px;
+  padding: 0px 8px;
 }
 
 section.hero-banner {
