@@ -1,6 +1,6 @@
-# Nova Invest Engery Website
+# Nova Energy Invest Website
 
-A modern, responsive website for Nova Invest Engery - Solar & Green Renewable Energy solutions.
+A modern, responsive website for Nova Energy Invest - Solar & Green Renewable Energy solutions.
 
 ## Project Structure
 
@@ -76,4 +76,4 @@ For inquiries: info@novainvestengery.com
 
 ## License
 
-© 2026 Nova Invest Engery. All rights reserved.
+© 2026 Nova Energy Invest. All rights reserved.

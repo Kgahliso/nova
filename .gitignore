@@ -38,3 +38,6 @@ temp/
 # Backups
 *.bak
 *.backup
+Archive.zip
+*.zip
+cpanel-deploy/

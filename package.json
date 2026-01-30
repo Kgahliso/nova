@@ -1,7 +1,7 @@
 {
   "name": "nova-invest-engery-website",
   "version": "1.0.0",
-  "description": "Nova Invest Engery - Solar & Green Renewable Energy Website",
+  "description": "Nova Energy Invest - Solar & Green Renewable Energy Website",
   "main": "index.html",
   "scripts": {
     "start": "npx http-server -p 8080 -o",
@@ -18,7 +18,7 @@
     "green-energy",
     "sustainability"
   ],
-  "author": "Nova Invest Engery",
+  "author": "Nova Energy Invest",
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {

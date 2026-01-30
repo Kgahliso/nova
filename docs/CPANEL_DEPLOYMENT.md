@@ -1,6 +1,6 @@
 # cPanel Deployment Guide
 
-## Nova Invest Engery - Deployment Steps for cPanel
+## Nova Energy Invest - Deployment Steps for cPanel
 
 ### Prerequisites
 - cPanel hosting account
@@ -318,7 +318,7 @@ If you have SSH access, save this as `deploy.sh`:
 
 ```bash
 #!/bin/bash
-# Nova Invest Engery Deployment Script
+# Nova Energy Invest Deployment Script
 
 echo "Starting deployment..."
 
