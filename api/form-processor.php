@@ -2,8 +2,8 @@
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
   if (isset($_POST['action']) && $_POST['action'] === 'subscribe') {
     $email = $_POST["email"];
-    $subject = "Subject Subscribe Email"; // Replace your Subject Here
-    $to = "recipient@example.com"; // Replace with your email
+    $subject = "Subscribe to Nova Energy Invest"; 
+    $to = "info@novaenergyinvest.co.za"; // 
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-type: text/html\r\n";
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $phone = $_POST["phone"];
     $message = $_POST["message"];
 
-    $to = "recipient@example.com"; // Replace with your email
+    $to = "info@novaenergyinvest.co.za"; 
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-type: text/html\r\n";
