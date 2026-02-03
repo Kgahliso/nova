@@ -9,4 +9,4 @@ Disallow: /includes/
 Disallow: /*.tmp$
 
 # Sitemap location
-Sitemap: https://www.novainvestengery.com/sitemap.xml
+Sitemap: https://www.novaenergyinvest.co.za/sitemap.xml

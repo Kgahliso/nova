@@ -72,7 +72,7 @@ novaenergy/
 
 ## Contact
 
-For inquiries: info@novainvestengery.com
+For inquiries: info@novaenergyinvest.co.za
 
 ## License
 

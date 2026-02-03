@@ -187,7 +187,7 @@ find . -type f -exec chmod 644 {} \;
 
 ### 3. Configure Email (for contact form)
 1. Go to cPanel **Email Accounts**
-2. Create email: `info@novainvestengery.com`
+2. Create email: `info@novaenergyinvest.co.za`
 3. Update `api/form-processor.php` with correct email
 
 ### 4. Test PHP Email Functionality
@@ -196,7 +196,7 @@ find . -type f -exec chmod 644 {} \;
 3. Test contact form submissions
 
 ### 5. Update Sitemap
-Edit `sitemap.xml` and replace `www.novainvestengery.com` with your actual domain name
+Edit `sitemap.xml` and replace `www.novaenergyinvest.co.za` with your actual domain name
 
 ---
 
@@ -362,7 +362,7 @@ Run: `./deploy.sh`
 ## Contact
 
 For deployment assistance:
-- Email: info@novainvestengery.com
+- Email: info@novaenergyinvest.co.za
 - Repository: https://github.com/Kgahliso/nova
 
 ---
